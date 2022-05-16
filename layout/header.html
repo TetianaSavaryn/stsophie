@@ -1,0 +1,117 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top fixed-top navbar-custom ">
+    <div class="container">
+        
+    <a class="navbar-brand mx-auto navbar-brand-img" href="/index.html">
+        <img src="../img/logo-text.svg" width="275px" height="" alt="St. Sophie logo" >
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">   
+            <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i>
+        </span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/index.html" id="nav_home">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Parish</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="/history.html">History</a></li>
+                <li><a class="dropdown-item" href="/historical-photos.html">Historical Photos</a></li>
+                <li><a class="dropdown-item" href="/becoming_member.html">Becoming a Member</a></li>
+                <li><a class="dropdown-item" href="/counsil.html">Parish Counsil</a></li>
+                <li><a class="dropdown-item" href="/organizations.html">Church Organizations</a></li>
+                <li><a class="dropdown-item" href="/sunday_school.html">Sunday School</a></li>
+                <li><a class="dropdown-item" href="/activities.html">Photos of Activities</a></li>
+            </ul>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/sacraments.html">Sacraments</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/camp.html">Camp</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/calendar.html">Calendar</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Links</a>
+            <ul class="dropdown-menu dropdown-menu-right">
+                <li><a class="dropdown-item" href="http://uocceast.ca/parishes/" target="_blank">Eastern Eparchy</a></li>
+                <li><a class="dropdown-item" href="http://uocc-we.ca/" target="_blank">Western Eparchy</a></li>
+                <li><a class="dropdown-item" href="http://www.umanitoba.ca/colleges/st_andrews/" target="_blank">Saint Andrew's College</a></li>
+                <li><a class="dropdown-item" href="http://www.uocc.ca/" target="_blank">UOCC</a></li>
+                <li><a class="dropdown-item" href="http://www.pastyr.ca/" target="_blank">pastyr.ca</a></li>
+            </ul>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/index.html#bulletin">Bulletins</a>
+        </li>
+        <li class="nav-item">
+            <a href="/index.html#donate" class="btn btn-main btn-outline-light" >Donate</a>
+        </li>
+        <li class="nav-item lang ">
+            <a class="nav-link" href="#ukr" data-reload>
+                <img src="../img/ua.svg" width="20" height="" alt="Ukrainian" >
+            </a>
+        </li>
+        <li class="nav-item lang">
+            <a class="nav-link" href="#can" data-reload>
+                <img src="../img/can.svg" width="20" height="" alt="Canadian" >
+            </a>
+        </li>
+      </ul>
+    </div>
+</div>
+</nav>
+
+
+<script>
+    $(document).scroll(function() {
+        var $nav = $(".navbar-fixed-top");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > 150);
+            if ($(".navbar").offset().top > 150) {
+                
+                $('#custom-nav').addClass('affix');
+                $(".navbar-fixed-top").addClass("top-nav-collapse");
+                $('.navbar-brand img').attr('src','img/logo.svg'); 
+                $('.navbar-brand img').attr('width','60');//change src
+            } else {
+                $('#custom-nav').removeClass('affix');
+                $(".navbar-fixed-top").removeClass("top-nav-collapse");
+                $('.navbar-brand img').attr('src','img/logo-text.svg');
+                $('.navbar-brand img').attr('width','275');
+            }   
+});
+</script>
+
+<!-- Translation script -->
+
+<script>
+    // Define language reload anchors
+    var dataReload = document.querySelectorAll("[data-reload]");
+
+    // Language translations
+    var language = {
+        ukr: {
+            navhome: "Головна"
+        }
+    };
+
+    // Define language via window hash
+    if (window.location.hash) {
+        if (window.location.hash === "#ukr") {
+            nav_home.textContent = language.ukr.navhome;
+
+        }
+    };
+
+    // Define language reload onclick illiteration
+    for (i = 0; i <= dataReload.length; i++) {
+        dataReload[i].onclick = function() {
+            location.reload(true);
+        }
+
+    };
+</script>
