@@ -140,21 +140,72 @@
     "org-1-li10": "Pentecost Service at grave sites",
     "org-1-li11": "Pastoral Care - counseling, hospital and home visits as well as other services",
     "org-title2": "Church Choir",
-    "org-title2-p": "Rehearsals every Tuesday on 7:30 pm in the Parish Hall.",
-    "org-title3": "Sunday School",
-    "org-title3-p": "For children ages 5 and over, Sundays beginning at 10:00 am in the Parish Hall. For more information, please contact Dobr. Ludmila Popovich at 438-881-8054.",
-    "org-title4": "Metr. Ilarion Ukrainian School",
-    "org-title4-p": "Invites students to enroll and take up the study of the Ukrainian language and its literature. Classes are held every Saturday morning at 9:00 am on church premises. For more information, call Dobr. Ludmila Popovich at 438-881-8054.",
-    "org-title5": "Parish Activities and Celebrations",
-    "org-5-li1": "Bible Studies",
-    "org-5-li2": "Fellowship Coffee Hour after Divine Liturgy",
-    "org-5-li3": "Parish Holiday Dinners and Special Receptions",
-    "org-5-li4": "Feast Day of St. Sophie, Patron Saint",
-    "org-5-li5": "St. Nicholas Day and Mother's Day Concerts",
-    "org-5-li6": "Christmas Carolling",
-    "org-5-li7": "Baptism of Ukraine and Camp Closing at Camp St. Sophie",
-    "org-5-li8": "Fund-raising events, e.g. bingo, garage sales, Easter bazaar/craft sales, sale of varenyky",
-    "org-5-li9": "St. Valentine's Day and Fall Dances"
+    "org-title2-p": "Rehearsals every Tuesday on 7:30 pm in the Parish Hall. For more information, please contact Halyna Vaverchak, 514-620-9494",
+    "org-title3": "Ukrainian Women’s Association Daughters of Ukraine",
+    "org-title3-p": "President Irena Herych - 514-747-7156",
+    "org-title4": "Misericordia Christiana Brotherhood (BXM)",
+    "org-title4-p": "For more information, please contact Olia Cowcz, BXM President - 514-722-1579.",
+    "org-title5": "Ukrainian Self-Reliance Association of Canada (USRA)",
+    "org-title6": "Sunday School",
+    "org-title6-p": "For children ages 5 and over, Sundays beginning at 10:00 am in the Parish Hall. For more information, please contact Dobr. Ludmila Popovich at 438-881-8054.",
+    "org-title7": "Metr. Ilarion Ukrainian School",
+    "org-title7-p": "Invites students to enroll and take up the study of the Ukrainian language and its literature. Classes are held every Saturday morning at 9:00 am on church premises. For more information, call Dobr. Ludmila Popovich at 438-881-8054.",
+    "org-title8": "Parish Activities and Celebrations",
+    "org-8-li1": "Bible Studies",
+    "org-8-li2": "Fellowship Coffee Hour after Divine Liturgy",
+    "org-8-li3": "Parish Holiday Dinners and Special Receptions",
+    "org-8-li4": "Feast Day of St. Sophie, Patron Saint",
+    "org-8-li5": "St. Nicholas Day and Mother's Day Concerts",
+    "org-8-li6": "Christmas Carolling",
+    "org-8-li7": "Baptism of Ukraine and Camp Closing at Camp St. Sophie",
+    "org-8-li8": "Fund-raising events, e.g. bingo, garage sales, Easter bazaar/craft sales, sale of varenyky",
+    "org-8-li9": "St. Valentine's Day and Fall Dances",
+
+    "school-title": "Sunday School",
+
+    "activities-title": "Photos of Parish Life",
+    "activities-a1": "2017 - Choir",
+    "activities-a2": "2017 - Easter",
+    "activities-a3": "2017 - Good Friday",
+    "activities-a4": "2017 - Lecture",
+    "activities-a5": "2017 - Palm Sunday",
+    "activities-a6": "2018 - Good Friday, Easter, Palm Sunday",
+    "activities-a7": "2018 - Christmas, Kutya",
+
+    "ph-16": "Activities Photos 2016",
+    "ph-16-back": "Back to activities photos",
+
+    "ph-17choir-title": "Choir 2017",
+    "ph-17choir-back": "Back to activities photos",
+
+    "ph-17easter-title": "Easter 2017",
+    "ph-17easter-back": "Back to activities photos",
+
+    "ph-17gfriday-title": "Good Friday 2017",
+    "ph-17gfriday-back": "Back to activities photos",
+
+    "ph-17lectures-title": "Lectures 2017",
+    "ph-17lectures-back": "Back to activities photos",
+
+    "ph-17psunday-title": "Palm Sunday 2017",
+    "ph-17psunday-back": "Back to activities photos",
+
+    "ph-18easter-title": "Good Friday, Easter, Palm Sunday 2018",
+    "ph-18easter-back": "Back to activities photos",
+
+    "ph-18christmas-title": "Christmas, Kutya 2018",
+    "ph-18christmas-back": "Back to activities photos",
+
+    "sacr-title": "Sacraments",
+    "sacr-title1": "Confession and Communion",
+    "sacr-p1": "Every effort has been made to schedule many services during Great Lent at which the Sacraments of Confession & Communion are served. It is the duty of every practicing Orthodox Christian to receive these Sacraments at least once a year and many choose to do this during Great Lent. However, those who leave this important ritual till Palm Sunday are putting a great strain on Fr. Volodymyr, whose duties are especially heavy in the closing days of Great Lent.",
+    "sacr-title2": "Baptisms",
+    "sacr-p2": "Parents must arrange a personal meeting with Fr. Volodymyr to make arrangements. God-parents must be practicing Orthodox Christians. Baptising a Child in the Orthodox Church presupposes that the child will be raised as an Orthodox Christian.",
+    "sacr-form": "Online baptismal declaration form",
+    "sacr-form2": "Baptismal application form in PDF format",
+    "sacr-title3": "Weddings",
+    "sacr-p3": "Couples must arrange a personal meeting with Fr. Volodymyr to make arrangements. If one of the parties is not Orthodox certain conditions may apply.",
+    "sacr-p4": "<a href=\"\">Click here</a> to see and submit on line the Marriage Declaration form."
 
 
 }
