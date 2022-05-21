@@ -13,6 +13,7 @@
     "nav-sacraments": "Sacraments",
     "nav-camp": "Camp",
     "nav-calendar": "Calendar",
+    "nav-articles": "Articles",
     "nav-links": "Links",
     "nav-link1": "Eastern Eparchy",
     "nav-link2": "Western Eparchy",
@@ -40,6 +41,42 @@
     "f-communion": "Communion",
     "f-marriage": "Marriage",
     "f-baptism": "Baptism",
+
+    "main-header1": "Saint Sophie",
+    "main-header2": "Ukrainian Orthodox Cathedral",
+    "main-bulletin": "Latest Bulletin",
+    "main-title1": "ST. SOPHIE UKRAINIAN REFUGEE RELIEF FUND INITIATIVE",
+    "main-title1-1": "Due to the ongoing crisis in Ukraine, our parish is preparing to accommodate the influx of women and children refugees in the Montreal region.",
+    "main-1-p1": "Coordinators:<br>Haley Twerdun (English and French): <a href = \"mailto: haleytwerdun@gmail.com\">haleytwerdun@gmail.com</a><br>Halyna Pylypchyk (Ukrainian) <a href = \"mailto: halynapylypchyk@gmail.com\">halynapylypchyk@gmail.com</a>",
+    "main-1-p2": "Donations accepted by cheque, cash or online at <a href=\"https://www.gofundme.com/f/xvn5s-help-refugees-from-ukraine?utm_source=customer&utm_medium=copy_link&utm_campaign=p_cf+share-flow-1\" target=\"_blank\"> Help Refugees from Ukraine</a>",
+    "main-1-a1": "DETAILS - OUR NEEDS",
+    "main-1-a2": "HELPING NEWCOMERS (OPENING HOURS: Saturday 10am - 4pm, Sunday 10am - 2pm)",
+    "main-1-a3": "DONATE",
+    "main-title2": "Donations to the parish through <a href=\"https://www.canadahelps.org/en/charities/108041716RR0002-cathedrale-orthodoxe-ukrainienne-sainte-sophie-de-montreal/\" target=\"_blank\" data-aos=\"fade-up\">Canada Helps</a><br>or via Interac ETransfer to stsophiemtl@gmail.com.",
+    "main-title2-1": "<i>Thank you for your generosity!</i>",
+    "main-title2-a": "Paschal Appeal Coupon",
+
+    "main-title3": "Latest Bulletin",
+    "main-title3-a1": "PASCHA - May 1, 2022",
+    "main-title3-a2": "PATRIARCHAL ENCYCLICAL FOR HOLY PASCHA 2022",
+    "main-title3-a3": "Paschal 2022 Epistle of the UOCC Bishops",
+    "main-title3-a4": "Advertisers 2022 05",
+    "main-title3-archive": "Archive",
+    "main-title3-1": "Epistles",
+    "main-title3-1-a": "<a href=\"pdf/2022 Paschal Epistle UOCC Bishops EN.pdf\" target=\"_blank\" >Blessing and call for prayer for the Ukrainian Orthodox Church of Canada from His Grace, Bishop Ilarion, Locum Tenens of the Metropolitan Cathedral of the UOCC</a>",
+    "main-title3-2": "Our church doors are open to the public!",
+    "main-title3-2-p": "<strong> ATTENDANCE IN QUEBEC </strong>All participants must remain seated. The distance between people or family bubbles is one meter. Wearing a face covering remains required at all times, except for when eating or drinking. All other modified worship practices related to the COVID-19 pandemic remain in place (i.e. veneration of icons, confession, communion, etc.).",
+    
+    "main-card1-h": "ANNUAL GENERAL PARISH MEETING",
+    "main-card1-p": "Sunday, May 29, 2022 following the Divine Liturgy. According to the Church By-Laws, those who have not paid their Annual Membership dues for 2021 may attend the meeting, however may not vote.",
+    "main-card2-h": "BROTHERHOOD MISERICORDIA CHRISTIANA - BXM - MEMBERSHIP APPEAL",
+    "main-card2-p": "Members of the Parish are invited to join the Brotherhood and become a part of this humanitarian organization. For more information, please phone Olia Kowcz, 514-722-1579 or Olena Gella, 514-626-1625.",
+    "main-card3-h": "ST. SOPHIE CAMP",
+    "main-card3-p": "Info Halyna Pylypchyk <br>(438) 931-8702",
+    "main-card3-a": "Read more",
+    "main-card4-h": "STREAMING",
+    "main-card4-p": "We are streaming our services on YouTube!",
+    "main-card4-a": "Please subscribe!",
 
     "h-title": "History of the Parish",
     "h-p1": "St. Sophie parish (\"Sophie\" means \"wisdom of God\") was formed in 1925 when 15 people joined to form a Ukrainian Orthodox Brotherhood. They worshipped in the Syrian Orthodox Church at 54 Notre Dame St. East.",
@@ -205,7 +242,58 @@
     "sacr-form2": "Baptismal application form in PDF format",
     "sacr-title3": "Weddings",
     "sacr-p3": "Couples must arrange a personal meeting with Fr. Volodymyr to make arrangements. If one of the parties is not Orthodox certain conditions may apply.",
-    "sacr-p4": "<a href=\"\">Click here</a> to see and submit on line the Marriage Declaration form."
+    "sacr-p4": "<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfdjhEPBRbJiKhEIXTKhiQUnvRRAYLAUCrRtvgB8VBrO5FNEA/viewform?usp=sf_link\">Click here</a> to see and submit on line the Marriage Declaration form.",
 
+    "camp-title": "Camp St. Sophie",
+    "camp-p1": "<img src=\"/img/camp1.png\" ALIGN=\"left\" style=\"margin-right: 10px;\" >Camp St. Sophie is a non-profit summer camp open to all children ages 7-15 interested in the Orthodox religion, Ukrainian culture, arts and crafts, music, culinary arts, drama, outdoor activities and sports. Our camp leaders speak Ukrainian, French, English and other languages. We provide campers with delicious home-made and healthy food.<br><br>Campers are provided with a safe, fun and wholesome environment in combination with great meals and a beautiful church in which to worship together. The program is organized by a group of volunteers whose primary focus is on the preservation of our Ukrainian Orthodox heritage.",
+    "camp-p2": "The children's summer camp is located in the town of Chertsey, approximately 70 kms from Montreal. The camp is more than 50 years and is located in an area surrounded by magnificent pine forests and water. In 2008, Metropolitan Yurij, Primate of the Ukrainian Orthodox Church of Canada, declared Camp St. Sophie as the official camp of the Eastern Eparchy.",
+    "camp-title1": "Activities Include:",
+    "camp-li1": "Spiritual talks",
+    "camp-li2": "Walks in the woods",
+    "camp-li3": "Sports, such as volleyball, basketball, tennis, baseball, and football",
+    "camp-li4": "Arts & Crafts",
+    "camp-li5": "Music Ukrainian",
+    "camp-li6": "Movie Nights",
+    "camp-li7": "Evening activities",
+    "camp-li8": "Swimming",
+    "camp-li9": "Competitions, games",
+    "camp-li10": "Embroidery",
+    "camp-li11": "Pysanky Making (Ukrainian Easter Eggs)",
+    "camp-a": "Camp Photo Gallery",
+
+    "camp-p-title": "Camp Photo Gallery",
+    "camp-p-a1": "Camp Site",
+    "camp-p-a2": "Chapel",
+    "camp-p-a3": "Video Gallery",
+    
+    "camp-v-title": "Camp Videos",
+    "camp-v-back": "Back to camp gallery",
+
+    "camp-2012-title": "Camp Photos 2012",
+    "camp-2012-back": "Back to camp gallery",
+
+    "camp-2015-title": "Camp Photos 2015",
+    "camp-2015-back": "Back to camp gallery",
+
+    "camp-2016-title": "Camp Photos 2016",
+    "camp-2016-back": "Back to camp gallery",
+
+    "camp-site-title": "Camp Site Photos",
+    "camp-site-back": "Back to camp gallery",
+
+    "camp-chapel-title": "Chapel Photos",
+    "camp-chapel-back": "Back to camp gallery",
+
+    "calendar-title": "Calendar",
+
+    "autobiography-p1": "Fr. Volodymyr was born on January 3rd, 1963 in Bukovina, Ukraine. In 1987, he completed his Seminary Studies in Odessa, Ukraine. He was later ordained as Deacon by the Metropolitan of Bukovina at St. Michael's Cathedral in Chernivitsi, Ukraine. In 1990, Fr. Volodymyr left Ukraine for Canada. In May of that same year, he was ordained as Priest, by the late Metropolitan Wasyly (Fedak), in the Orthodox Church of Canada. After his ordination, he served at St. George's Church in Grimsby, Ontario, Holy Trinity Church in London, Ontario, as well as at St. Michael's Church in Edmonton, Alberta. Fr. Volodymyr has been serving at St. Sophie Ukrainian Orthodox Cathedral since August 1999, where he remains today.",
+    "autobiography-p2": "Fr. Volodymyr is the proud father of two daughters, Irena and Luba.",
+    "autobiography-p3": "In May 2006, after 15 years of priesthood, Fr. Volodymyr achieved a higher ranking status, becoming Very Reverend Fr. Volodymyr. In addition, on November 20th, 2006, he received his Master's Degree in Theological Studies from Concordia University in Montreal, Quebec.",
+    "autobiography-p4": "For the past 10 years. Fr. Volodymyr has been involved with Camp St. Sophie, 5 of which he has been Director.",
+    "autobiography-p5": "In addition to his pastoral work at St. Sophie Cathedral, Fr. Volodymyr was re-elected to the Consistory Board for a second term at Sobor 2010.",
+
+    "archive-title": "Weekly Bulletins",
+
+    "a-title": "Articles"
 
 }

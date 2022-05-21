@@ -15,8 +15,13 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css" />
+    
+    <!-- Photo Gallery CSS -->
+    <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
 
-    <title id="ml-title">St. Sophie Ukrainian Orthodox Cathedral</title>
+
+    <title lang-tag="ml-title">St. Sophie Ukrainian Orthodox Cathedral</title>
+    <link rel="icon" type="image/x-icon" href="/img/logo.svg">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -29,14 +34,8 @@
     <script src="https://kit.fontawesome.com/96eb73d532.js" crossorigin="anonymous"></script>
     <script src="js/jquery.min.js"></script>
     <script src="/js/jquery.MultiLanguage.min.js"></script>
-    <script>
-        $(document).ready(function(){
-          $.MultiLanguage('language.json');
-        })
-      </script>
+    <script src="/js/translate.js"></script>
 
-
-    
 </head>
 <body>
    
@@ -49,8 +48,8 @@
         <div class="container">
             <div class="row">
                 <div class="col left">
-                    <h1 id="ml-title1">Saint Sophie</h1>
-                    <h2 id="ml-title2">Ukrainian Orthodox Cathedral</h2>
+                    <h1 lang-tag="main-header1">Saint Sophie</h1>
+                    <h2 lang-tag="main-header2">Ukrainian Orthodox Cathedral</h2>
                 </div>
                 <div class="col right">
                     <h2>Cathédrale Orthodoxe Ukrainienne</h2>
@@ -59,7 +58,7 @@
             </div>
             <div class="row justify-content-md-center">
                 <div class="col-md-auto">
-                    <a href="#bulletin" data-aos="fade-up" class="btn btn-main btn-outline-light">Latest Bulletin</a>
+                    <a href="#bulletin" data-aos="fade-up" class="btn btn-main btn-outline-light" lang-tag="main-bulletin">Latest Bulletin</a>
                 </div>
             </div>
             
@@ -72,14 +71,14 @@
         <div class="container">
             <div class="row">
                 <div class="col left">
-                            <h1>ST. SOPHIE UKRAINIAN REFUGEE RELIEF FUND INITIATIVE</h1>
-                            <h2>Due to the ongoing crisis in Ukraine, our parish is preparing to accommodate the influx of women and children refugees in the Montreal region.</h2>
-                            <p>Coordinators:<br>Haley Twerdun (English and French): <a href = "mailto: haleytwerdun@gmail.com">haleytwerdun@gmail.com</a><br>
+                            <h1 lang-tag="main-title1">ST. SOPHIE UKRAINIAN REFUGEE RELIEF FUND INITIATIVE</h1>
+                            <h2 lang-tag="main-title1-1">Due to the ongoing crisis in Ukraine, our parish is preparing to accommodate the influx of women and children refugees in the Montreal region.</h2>
+                            <p lang-tag="main-1-p1">Coordinators:<br>Haley Twerdun (English and French): <a href = "mailto: haleytwerdun@gmail.com">haleytwerdun@gmail.com</a><br>
                             Halyna Pylypchyk (Ukrainian) <a href = "mailto: halynapylypchyk@gmail.com">halynapylypchyk@gmail.com</a></p>
-                            <p>Donations accepted by cheque, cash or online at <a href="https://www.gofundme.com/f/xvn5s-help-refugees-from-ukraine?utm_source=customer&utm_medium=copy_link&utm_campaign=p_cf+share-flow-1" target="_blank"> Help Refugees from Ukraine</a></p>
-                            <a href="pdf/St Sophie Donation Center EN.pdf" target="_blank" >DETAILS - OUR NEEDS</a><br>
-                            <a href="pdf/arrivals.pdf" target="_blank" >HELPING NEWCOMERS (OPENING HOURS: Saturday 10am - 4pm, Sunday 10am - 2pm)</a><br><br>
-                            <a href="https://www.gofundme.com/f/xvn5s-help-refugees-from-ukraine?utm_source=customer&utm_medium=copy_link&utm_campaign=p_cf+share-flow-1" target="_blank" class="btn btn-primary">DONATE</a>
+                            <p lang-tag="main-1-p2">Donations accepted by cheque, cash or online at <a href="https://www.gofundme.com/f/xvn5s-help-refugees-from-ukraine?utm_source=customer&utm_medium=copy_link&utm_campaign=p_cf+share-flow-1" target="_blank"> Help Refugees from Ukraine</a></p>
+                            <a href="pdf/St Sophie Donation Center EN.pdf" target="_blank" lang-tag="main-1-a1">DETAILS - OUR NEEDS</a><br>
+                            <a href="pdf/arrivals.pdf" target="_blank" lang-tag="main-1-a2">HELPING NEWCOMERS (OPENING HOURS: Saturday 10am - 4pm, Sunday 10am - 2pm)</a><br><br>
+                            <a href="https://www.gofundme.com/f/xvn5s-help-refugees-from-ukraine?utm_source=customer&utm_medium=copy_link&utm_campaign=p_cf+share-flow-1" target="_blank" class="btn btn-primary" lang-tag="main-1-a3">DONATE</a>
 
                 </div>
                 <div class="col right">
@@ -103,10 +102,11 @@
             <div class="row">
                 <div class="card">
                     <div class="card-body">
-                        <h3 class="my-4">Donations to the parish through <a href="https://www.canadahelps.org/en/charities/108041716RR0002-cathedrale-orthodoxe-ukrainienne-sainte-sophie-de-montreal/" target="_blank" data-aos="fade-up" class="">Canada Helps</a>
+                        <h3 class="my-4" lang-tag="main-title2">Donations to the parish through <a href="https://www.canadahelps.org/en/charities/108041716RR0002-cathedrale-orthodoxe-ukrainienne-sainte-sophie-de-montreal/" target="_blank" data-aos="fade-up" class="">Canada Helps</a>
                             <br>or via Interac ETransfer to stsophiemtl@gmail.com.
-                            <br><h4><i>Thank you for your generosity!</i></h4>
-                            <a href="pdf/2022 Easter Donation Form.pdf" target="_blank" class="btn btn-primary">Paschal Appeal Coupon</a><br>
+                            <br>
+                            <h4 lang-tag="main-title2-1"><i>Thank you for your generosity!</i></h4>
+                            <a href="pdf/2022 Easter Donation Form.pdf" target="_blank" class="btn btn-primary" lang-tag="main-title2-a">Paschal Appeal Coupon</a><br>
                         </h3>
                     </div>
                 </div>
@@ -119,19 +119,19 @@
         <div class="container">
             <div class="row">
                 <div class="col left">
-                    <h1>Latest Bulletin</h1>
-                    <a href="pdf/05 01 2022.pdf" target="_blank">PASCHA - May 1, 2022</a><br>
-                    <a href="pdf/Patriarchal Message for Pascha 2022 EN.pdf" target="_blank">PATRIARCHAL ENCYCLICAL FOR HOLY PASCHA 2022</a><br>
-                    <a href="pdf/2022 Paschal Epistle UOCC Bishops EN.pdf" target="_blank">Paschal 2022 Epistle of the UOCC Bishops</a><br>
-                    <a href="pdf/Advertisers 2022 05.pdf" target="_blank">Advertisers 2022 05</a><br>
-                    <a href="#">Archive</a>
+                    <h1 lang-tag="main-title3">Latest Bulletin</h1>
+                    <a href="pdf/05 01 2022.pdf" target="_blank" lang-tag="main-title3-a1">PASCHA - May 1, 2022</a><br>
+                    <a href="pdf/Patriarchal Message for Pascha 2022 EN.pdf" target="_blank" lang-tag="main-title3-a2">PATRIARCHAL ENCYCLICAL FOR HOLY PASCHA 2022</a><br>
+                    <a href="pdf/2022 Paschal Epistle UOCC Bishops EN.pdf" target="_blank" lang-tag="main-title3-a3">Paschal 2022 Epistle of the UOCC Bishops</a><br>
+                    <a href="pdf/Advertisers 2022 05.pdf" target="_blank" lang-tag="main-title3-a4">Advertisers 2022 05</a><br>
+                    <a href="/archive.html" lang-tag="main-title3-archive">Archive</a>
                 <br><br>
-                    <h1>Epistles</h1>
-                    <a href="pdf/2022 Paschal Epistle UOCC Bishops EN.pdf" target="_blank">Blessing and call for prayer for the Ukrainian Orthodox Church of Canada from His Grace, Bishop Ilarion, Locum Tenens of the Metropolitan Cathedral of the UOCC</a><br>
+                    <h1 lang-tag="main-title3-1">Epistles</h1>
+                    <p lang-tag="main-title3-1-a"><a href="pdf/2022 Paschal Epistle UOCC Bishops EN.pdf" target="_blank" >Blessing and call for prayer for the Ukrainian Orthodox Church of Canada from His Grace, Bishop Ilarion, Locum Tenens of the Metropolitan Cathedral of the UOCC</a></p><br>
                 </div>
                 <div class="col right">
-                    <h1>Our church doors are open to the public!</h1>
-                    <p><strong> ATTENDANCE IN QUEBEC </strong>All participants must remain seated. The distance between people or family bubbles is one meter. Wearing a face covering remains required at all times, except for when eating or drinking. All other modified worship practices related to the COVID-19 pandemic remain in place (i.e. veneration of icons, confession, communion, etc.).</p>
+                    <h1 lang-tag="main-title3-2">Our church doors are open to the public!</h1>
+                    <p lang-tag="main-title3-2-p"><strong> ATTENDANCE IN QUEBEC </strong>All participants must remain seated. The distance between people or family bubbles is one meter. Wearing a face covering remains required at all times, except for when eating or drinking. All other modified worship practices related to the COVID-19 pandemic remain in place (i.e. veneration of icons, confession, communion, etc.).</p>
                     <a href="https://www.quebec.ca/en/health/health-issues/a-z/2019-coronavirus/" target="_blank">Santé Québec Website</a><br>
                     <a href="https://www.quebec.ca/sante/problemes-de-sante/a-z/coronavirus-2019/" target="_blank">Santé Québec site web</a><br>
                     <a href="https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html#a1" target="_blank">Public Health Agency of Canada: Coronavirus disease (COVID-19): Outbreak update</a><br>
@@ -147,10 +147,10 @@
             <div class="row">
                 <div class="col">
                     <div class="card" >
-                        <img class="card-img-top" src="img/parish.png" alt="Parish meeting">
+                        <img class="card-img-top" src="img/St.-Sophie-Montreal.jpg" alt="Parish meeting">
                         <div class="card-body">
-                          <h5 class="card-title">ANNUAL GENERAL PARISH MEETING</h5>
-                          <p class="card-text">Sunday, May 29, 2022 following the Divine Liturgy. According to the Church By-Laws, those who have not paid their Annual Membership dues for 2021 may attend the meeting, however may not vote.</p>
+                          <h5 class="card-title" lang-tag="main-card1-h">ANNUAL GENERAL PARISH MEETING</h5>
+                          <p class="card-text" lang-tag="main-card1-p">Sunday, May 29, 2022 following the Divine Liturgy. According to the Church By-Laws, those who have not paid their Annual Membership dues for 2021 may attend the meeting, however may not vote.</p>
                         </div>
                       </div>
                 </div>
@@ -158,8 +158,8 @@
                     <div class="card">
                         <img class="card-img-top" src="img/church1.jpeg" alt="Membership">
                         <div class="card-body">
-                          <h5 class="card-title">BROTHERHOOD MISERICORDIA CHRISTIANA - BXM - MEMBERSHIP APPEAL</h5>
-                          <p class="card-text">Members of the Parish are invited to join the Brotherhood and become a part of this humanitarian organization. For more information, please phone Olia Kowcz, 514-722-1579 or Olena Gella, 514-626-1625.</p>
+                          <h5 class="card-title" lang-tag="main-card2-h">BROTHERHOOD MISERICORDIA CHRISTIANA - BXM - MEMBERSHIP APPEAL</h5>
+                          <p class="card-text" lang-tag="main-card2-p">Members of the Parish are invited to join the Brotherhood and become a part of this humanitarian organization. For more information, please phone Olia Kowcz, 514-722-1579 or Olena Gella, 514-626-1625.</p>
                         </div>
                       </div>
                 </div>
@@ -167,9 +167,19 @@
                     <div class="card">
                         <img class="card-img-top" src="img/camp1.png" alt="Camp">
                         <div class="card-body">
-                          <h5 class="card-title">ST SOPHIE CAMP</h5>
-                          <p class="card-text">Info Halyna Pylypchyk <br>(438) 931-8702</p>
-                          <a href="#" class="btn btn-primary">Read more</a>
+                          <h5 class="card-title" lang-tag="main-card3-h">ST. SOPHIE CAMP</h5>
+                          <p class="card-text" lang-tag="main-card3-p">Info Halyna Pylypchyk <br>(438) 931-8702</p>
+                          <a href="/camp.html" class="btn btn-primary" lang-tag="main-card3-a">Read more</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img class="card-img-top" src="img/youtube-livestreaming.jpeg" alt="youtube">
+                        <div class="card-body">
+                          <h5 class="card-title" lang-tag="main-card4-h">STREAMING</h5>
+                          <p class="card-text" lang-tag="main-card4-p">We are streaming our services on YouTube!</p>
+                          <a href="https://www.youtube.com/channel/UC4RMreY_7esqDOeK3pZAWPg" class="btn btn-primary" target="_blank" lang-tag="main-card4-a">Please Subscribe!</a>
                         </div>
                       </div>
                 </div>
