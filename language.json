@@ -1,0 +1,128 @@
+{
+    
+    "language": {
+      "en": {
+        "#ml-title": "St. Sophie Ukrainian Orthodox Cathedral",
+
+        "#ml-nav-home": "Home",
+        "#ml-nav-parish": "Parish",
+        "#ml-nav-history": "History",
+        "#ml-nav-historicalPhotos": "Historical Photos",
+        "#ml-nav-becomingMember": "Becoming a Member",
+        "#ml-nav-parishCounsil": "Parish Counsil",
+        "#ml-nav-churchOrganizations": "Church Organizations",
+        "#ml-nav-sundaySchool": "Sunday School",
+        "#ml-nav-photosActivities": "Photos of Activities",
+        "#ml-nav-sacraments": "Sacraments",
+        "#ml-nav-camp": "Camp",
+        "#ml-nav-calendar": "Calendar",
+        "#ml-nav-links": "Links",
+        "#ml-nav-link1": "Eastern Eparchy",
+        "#ml-nav-link2": "Western Eparchy",
+        "#ml-nav-link3": "Saint Andrew's College",
+        "#ml-nav-bulletins": "Bulletins",
+        "#ml-nav-donate": "Donate",
+
+        "#ftitle": "St. Sophie Ukrainian Orthodox Cathedral",
+        "#ftitle1": "Our Parish",
+        "#ftitle2": "Parish Priest",
+        "#ftitle3": "Church Sacraments",
+        "#f-history": "History",
+        "#f-hPhotos": "Historical Photos",
+        "#f-becomingMember": "Becoming a Member",
+        "#f-parishCounsil": "Parish Counsil",
+        "#f-churchOrganizations": "Church Organizations",
+        "#f-sundaySchool": "Sunday School",
+        "#f-photosActivities": "Photos of Activities",
+        "#f-camp": "Camp",
+        "#f-p1": "Very Rev. Archpriest Volodymyr Kouchnir",
+        "#p-auto": "Autobiography",
+        "#f-p2": "Office: (514) 727-2236",
+        "#f-p3": "Cell: (514) 947-2235",
+        "#f-confession": "Confession",
+        "#f-communion": "Communion",
+        "#f-marriage": "Marriage",
+        "f-baptism": "Baptism",
+
+        "#h-title": "History of the Parish",
+        "#h-p1": "St. Sophie parish (\"Sophie\" means \"wisdom of God\") was formed in 1925 when 15 people joined to form a Ukrainian Orthodox Brotherhood. They worshipped in the Syrian Orthodox Church at 54 Notre Dame St. East.",
+        "#h-p2": "Fr. Semen Sawchuk, Head of the Ukrainian Orthodox Church in Canada (UOCC) performed the first Liturgy in the Ukrainian language at this church in June 1925. The parish bought a building on de Lorimier St. near Ontario St. in order to have a Church of its own. It was consecrated in 1929. Fr. Volodymyr Sluzar, celebrated the first Divine Liturgy of the newly-formed parish. In 1931, the Quebec government granted a charter to St. Sophie parish. Fr. Sluzar directed the parish for 48 years.",
+        "#h-p3": "As the membership increased, it became evident that a larger building was needed. In 1954 a large lot on the corner of Bellechasse and Blvd. St. Michel was bought, as many Ukrainians had settled in the Rosemount area. On this corner, overlooking farmlands and fields, an imposing church was built in the traditional Byzantine style, designed by architect V. Sichinsky. He used the Cathedral of St. Volodymyr in Kyiv as his model. Later a residence for the parish priest and one for the caretaker were also built on the property. The buildings were completed in 1962 and the church was consecrated by Metropolitan Ilarion and Archbishop Michael and was designated a \"sobor\". In 1988, St. Sophie was elevated to the status of \"cathedral\".",
+        "#h-p4": "In 1988 the Makarenko Studio of New York decorated the sanctuary with icons. The nave area of the church was repainted in 2007. Necesary renovations are continuing.",
+        "#h-p5": "We cherish our ancestral heritage and the Ukrainian language and culture which we strive to preserve in our parish life.",
+        "#h-p6": "St. Sophie Cathedral is a member of the Eastern Eparchy (division) of the Ukrainian Orthodox Church of Canada, which has its headquarters in Winnipeg. Its newspaper, \"The Herald\", is sent to all members each month. We gather to worship during the Divine Liturgy on Sundays, certain weekdays, and holidays. Our faith in God's goodness and the desire to gain His Grace unites us in prayer. Friendship, peace and the opportunity to grow spiritually in Christian love and to unite with Him in the holy mystery of communion - these are the aims of our parish. Come to God's house and find strength in His blessing, which is given to all.",
+
+        "#hphoto-title": "Historical Photos",
+        "#hphoto-p": "Please note that these photos are courtesy of Kristina Melnyk.",
+        "#hphoto-link1": "To 1960",
+        "#hphoto-link2": "St. Sophie Cultural Events",
+        "#hphoto-link3": "CYMK",
+        "#hphoto-link4": "Ukrainian and Sunday Schools"
+
+      },
+
+
+
+      "ua": {
+        "#ml-title": "Катедра Святої Софії",
+
+        "#ml-nav-home": "Головна",
+        "#ml-nav-parish": "Парафія",
+        "#ml-nav-history": "Історія",
+        "#ml-nav-historicalPhotos": "Історичні фото",
+        "#ml-nav-becomingMember": "Стати членом",
+        "#ml-nav-parishCounsil": "Церковна рада",
+        "#ml-nav-churchOrganizations": "Церковні організації",
+        "#ml-nav-sundaySchool": "Недільна школа",
+        "#ml-nav-photosActivities": "Фото діяльності",
+        "#ml-nav-sacraments": "Таїнства",
+        "#ml-nav-camp": "Дитячий табір",
+        "#ml-nav-calendar": "Календар",
+        "#ml-nav-links": "Посилання",
+        "#ml-nav-link1": "Східна єпархія",
+        "#ml-nav-link2": "Західна єпархія",
+        "#ml-nav-link3": "Коледж Святого Андрія",
+        "#ml-nav-bulletins": "Бюлетені",
+        "#ml-nav-donate": "Пожертвувати",
+
+        "#ftitle": "Українська Православна Катедра Святої Софії",
+        "#ftitle1": "Наша парафія",
+        "#ftitle2": "Настоятель парафії",
+        "#ftitle3": "Церковні таїнства",
+        "#f-history": "Історія",
+        "#f-hPhotos": "Історичні фото",
+        "#f-becomingMember": "Стати членом",
+        "#f-parishCounsil": "Церковна рада",
+        "#f-churchOrganizations": "Церковні організації",
+        "#f-sundaySchool": "Недільна школа",
+        "#f-photosActivities": "Фото діяльності",
+        "#f-camp": "Дитячий табір",
+        "#f-p1": "Прот. О. Володимир Кушнір",
+        "#p-auto": "Автобіографія",
+        "#f-p2": "Роб.: (514) 727-2236",
+        "#f-p3": "Моб.: (514) 947-2235",
+        "#f-confession": "Сповідь",
+        "#f-communion": "Причастя",
+        "#f-marriage": "Вінчання",
+        "#f-baptism": "Хрещення",
+
+        "#h-title": "Історія парафії",
+        "#h-p1": "Київський Софійський Собор послужив зразком для багатьох будівель Софійських Соборів. Пам’ять величі і слави привезли і наші піонери за океан в далеку Канаду. Православна Церква в Канаді була заснована в 1918 році у західних провінціях. Після другої світової війни хвиля імігрантів до Канади збільшувалася. Отже, внаслідок припливу нової хвилі, частина імігрантів посилилася в Монреалі, виникла потреба збудувати Божий храм.",
+        "#h-p2": "Отже, в домі Миколи Юрійчука 9-го Березня 1925 року відбулися перші збори і було створене Українське Православне Братство. Він був першим секретарем браства. Його внесок та його родини та інших членів братства дуже вагомі. Згодом братство зростає у щораз сильнішу, чисельну громаду, і в 1929 р. громада придбала перший церковний будинок, куди сходилися молитися православні українці, де розвивалося культурно-громадське життя.",
+        "#h-p3": "Тут слід відмітити, що Українська Православна Церква на рідних землях зуміла поєднати національне стремління Українського народу з його вірою від самих початків Християнства в Україні. Всі верстви українського народу, від селян до інтелегенції, були об’єднані в одну неподільну цілісність і тому православна віра та українська нація зливалися в одне ціле та ставали синонімами: православний і українець.",
+        "#h-p4": "Перед цим, парафія винаймала приміщення в Сирійській Православній Церкві, що знаходиться на вулиці Нотр-Дам 54, Санкт Схiд. О. Семен Савчук, голова Консисторії Української Православної Церкви в Канаді (UOCC), відслужив першу Літургію українською мовою в новій церкві, яку вірні купипили на вулиці Lorimier. Через рік , 22-го серпня 1926 р. був призначений постійний священик о. Володимир Слюзар,який прибув до Монреалю зі своєю родиною і активно включився в організаційне життя громади. Завдяки його відданому служінню та наполегливій праці, громада закупила нову ділянку землі і розпочала будівництво нового Храму. За планом відомого знавця української архітектури, проф. В. Січинського, у 1962 р. було завершено будівництво нового храму на честь Святої Софії Київської Премудрості Божої, який був освячений Блаженнішим Іларіоном Огієнком, Митрополитом Вініпегу і всієї Канади.",
+        "#h-p5": "У 1988 році іконописцем Макаренком з Нью-Йорку була розписана передня частина храму. Друга частина храму, була завершина під керівництвом Віктора Сидоренка, який був головою церковної ради.",
+        "#h-p6": "Катедра Святої Софії є частиною Східньої Єпархії Української Православної Церкви Канади, а головна канцелярія знаходиться в Вінніпезі. Видавництво випускає газету \"Вісник\", що розсилається всім, хто платить свої річні внески до парафії. Духовне Літургійне життя повязяне із духовність та традиціями нашого народу. Ми цінуємо спадщину наших предків, ми прагнемо зберегти це в нашому парафіяльному житті та передати молодому поколінню. БЕЗ МИНУЛОГО НЕМАЄ МАЙБУТНЬГО!!!",
+
+        "#hphoto-title": "Історичні фото",
+        "#hphoto-p": "Зауважте, будь-ласка, що ці фото любʼязно надані Христиною Мельник.",
+        "#hphoto-link1": "До 1960р.",
+        "#hphoto-link2": "Культурні події в Св. Софії",
+        "#hphoto-link3": "СУМК",
+        "#hphoto-link4": "Українська та недільна школи"
+
+        
+    
+      }
+    }
+  }

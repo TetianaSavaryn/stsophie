@@ -12,52 +12,52 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="/index.html" id="nav_home">Home</a>
+          <a class="nav-link" href="/index.html" lang-tag="nav-home">Home</a>
         </li>
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Parish</a>
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" lang-tag="nav-parish">Parish</a>
             <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="/history.html">History</a></li>
-                <li><a class="dropdown-item" href="/historical-photos.html">Historical Photos</a></li>
-                <li><a class="dropdown-item" href="/becoming_member.html">Becoming a Member</a></li>
-                <li><a class="dropdown-item" href="/counsil.html">Parish Counsil</a></li>
-                <li><a class="dropdown-item" href="/organizations.html">Church Organizations</a></li>
-                <li><a class="dropdown-item" href="/sunday_school.html">Sunday School</a></li>
-                <li><a class="dropdown-item" href="/activities.html">Photos of Activities</a></li>
+                <li><a class="dropdown-item" href="/history.html" lang-tag="nav-history">History</a></li>
+                <li><a class="dropdown-item" href="/historical-photos.html" lang-tag="nav-historicalPhotos">Historical Photos</a></li>
+                <li><a class="dropdown-item" href="/becoming_member.html" lang-tag="nav-becomingMember">Becoming a Member</a></li>
+                <li><a class="dropdown-item" href="/counsil.html" lang-tag="nav-parishCounsil">Parish Counsil</a></li>
+                <li><a class="dropdown-item" href="/organizations.html" lang-tag="nav-churchOrganizations">Church Organizations</a></li>
+                <li><a class="dropdown-item" href="/sunday_school.html" lang-tag="nav-sundaySchool">Sunday School</a></li>
+                <li><a class="dropdown-item" href="/activities.html" lang-tag="nav-photosActivities">Photos of Activities</a></li>
             </ul>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="/sacraments.html">Sacraments</a>
+            <a class="nav-link" href="/sacraments.html" lang-tag="nav-sacraments">Sacraments</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="/camp.html">Camp</a>
+            <a class="nav-link" href="/camp.html" lang-tag="nav-camp">Camp</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="/calendar.html">Calendar</a>
+            <a class="nav-link" href="/calendar.html" lang-tag="nav-calendar">Calendar</a>
         </li>
         <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Links</a>
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" lang-tag="nav-links">Links</a>
             <ul class="dropdown-menu dropdown-menu-right">
-                <li><a class="dropdown-item" href="http://uocceast.ca/parishes/" target="_blank">Eastern Eparchy</a></li>
-                <li><a class="dropdown-item" href="http://uocc-we.ca/" target="_blank">Western Eparchy</a></li>
-                <li><a class="dropdown-item" href="http://www.umanitoba.ca/colleges/st_andrews/" target="_blank">Saint Andrew's College</a></li>
-                <li><a class="dropdown-item" href="http://www.uocc.ca/" target="_blank">UOCC</a></li>
+                <li><a class="dropdown-item" href="http://uocceast.ca/parishes/" target="_blank" lang-tag="nav-link1">Eastern Eparchy</a></li>
+                <li><a class="dropdown-item" href="http://uocc-we.ca/" target="_blank" lang-tag="nav-link2">Western Eparchy</a></li>
+                <li><a class="dropdown-item" href="http://www.umanitoba.ca/colleges/st_andrews/" target="_blank" lang-tag="nav-link3">Saint Andrew's College</a></li>
+                <li><a class="dropdown-item" href="http://www.uocc.ca/" target="_blank" >UOCC</a></li>
                 <li><a class="dropdown-item" href="http://www.pastyr.ca/" target="_blank">pastyr.ca</a></li>
             </ul>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="/index.html#bulletin">Bulletins</a>
+            <a class="nav-link" href="/index.html#bulletin" lang-tag="nav-bulletins">Bulletins</a>
         </li>
         <li class="nav-item">
-            <a href="/index.html#donate" class="btn btn-main btn-outline-light" >Donate</a>
+            <a href="/index.html#donate" class="btn btn-main btn-outline-light" lang-tag="nav-donate">Donate</a>
         </li>
-        <li class="nav-item lang ">
-            <a class="nav-link" href="#ukr" data-reload>
+        <li class="nav-item lang">
+            <a class="nav-link" href="javascript:void(0);" id="uaTranslator">
                 <img src="../img/ua.svg" width="20" height="" alt="Ukrainian" >
             </a>
         </li>
         <li class="nav-item lang">
-            <a class="nav-link" href="#can" data-reload>
+            <a class="nav-link" href="javascript:void(0);" id="enTranslator">
                 <img src="../img/can.svg" width="20" height="" alt="Canadian" >
             </a>
         </li>
@@ -86,32 +86,4 @@
 });
 </script>
 
-<!-- Translation script -->
-
-<script>
-    // Define language reload anchors
-    var dataReload = document.querySelectorAll("[data-reload]");
-
-    // Language translations
-    var language = {
-        ukr: {
-            navhome: "Головна"
-        }
-    };
-
-    // Define language via window hash
-    if (window.location.hash) {
-        if (window.location.hash === "#ukr") {
-            nav_home.textContent = language.ukr.navhome;
-
-        }
-    };
-
-    // Define language reload onclick illiteration
-    for (i = 0; i <= dataReload.length; i++) {
-        dataReload[i].onclick = function() {
-            location.reload(true);
-        }
-
-    };
-</script>
+<script src="../js/lang.js"></script>
